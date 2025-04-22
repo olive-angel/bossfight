@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_invisiblewall",
-  "eventList":[],
+  "%Name":"obj_monkey",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_invisiblewall",
+  "name":"obj_monkey",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_invisiblewall",
-    "path":"sprites/spr_invisiblewall/spr_invisiblewall.yy",
+    "name":"spr_monkey",
+    "path":"sprites/spr_monkey/spr_monkey.yy",
   },
   "spriteMaskId":null,
   "visible":true,

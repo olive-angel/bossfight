@@ -1,9 +1,11 @@
 /// @description Core Player Logic
 
 //Get player inputs
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(vk_space);
+if(!disabled){
+	key_left = keyboard_check(vk_left);
+	key_right = keyboard_check(vk_right);
+	key_jump = keyboard_check_pressed(vk_space);
+}
 
 
 //Calc movoment vertical
@@ -12,7 +14,7 @@ if (on_wall != 0) && (vsp > 0) && (key_left != 0 || key_right != 0) {
 	grv_final = grv_wall;
 }
 vsp += grv_final;
-
+  
 if (on_ground) {
 	currjumps = 0;
 }

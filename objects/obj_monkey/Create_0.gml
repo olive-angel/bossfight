@@ -23,3 +23,4 @@ going_right = true;
 
 disabled = false;
 normal_color = image_blend;
+

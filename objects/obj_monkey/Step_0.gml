@@ -2,11 +2,16 @@
 
 //Get player inputs
 if(!disabled){
-	key_left = keyboard_check(vk_left);
-	key_right = keyboard_check(vk_right);
+	key_left = keyboard_check(ord("A"));
+	key_right = keyboard_check(ord("D"));
 	key_jump = keyboard_check_pressed(vk_space);
+	key_shoot = mouse_check_button_pressed(mb_left)
 }
 
+if(key_shoot)
+{
+	instance_create_layer(x, y, "Instances", obj_bullet);
+}
 
 //Calc movoment vertical
 var grv_final = grv;

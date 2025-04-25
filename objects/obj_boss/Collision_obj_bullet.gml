@@ -1,0 +1,1 @@
+obj_control.boss_health -= 10;

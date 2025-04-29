@@ -11,3 +11,9 @@ if (place_meeting(x + speed, y, obj_wall)) {
 if(speed != 0) {
 	image_xscale = sign(speed);
 }
+
+
+if (place_meeting(x + 100, y - 10, obj_monkey) or place_meeting(x + 100, y - 10, obj_monkey))
+{
+	alarm[1] = room_speed * 0.1;
+}

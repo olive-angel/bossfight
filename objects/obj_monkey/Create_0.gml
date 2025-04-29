@@ -4,7 +4,7 @@ hsp = 0;
 vsp = 0;
 
 
-grv = 0.17;
+grv = 0.1;
 grv_wall = 0.03;
 
 walksp = 4;

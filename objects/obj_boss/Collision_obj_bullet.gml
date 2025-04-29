@@ -1,1 +1,1 @@
-obj_control.boss_health -= 10;
+alarm[1] = room_speed * 0.1;

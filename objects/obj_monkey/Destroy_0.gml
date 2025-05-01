@@ -1,0 +1,1 @@
+if(id == obj_control.player_id) obj_control.alarm[3] = 60;

@@ -1,6 +1,6 @@
 
 
-hole_num = irandom_range(1, 5);
+var hole_num = irandom_range(1, 5);
 if (hole_num == 1) player_id = instance_create_layer(hole1.x, hole1.y, "Instances", obj_monkey);
 if (hole_num == 2) player_id = instance_create_layer(hole2.x, hole2.y, "Instances", obj_monkey);
 if (hole_num == 3) player_id = instance_create_layer(hole3.x, hole3.y, "Instances", obj_monkey);

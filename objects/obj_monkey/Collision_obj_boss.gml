@@ -1,4 +1,4 @@
-/// @desc enemy collision
+/// @desc boss collision
 
 disabled = true;	
 alarm[0] = room_speed * 2;

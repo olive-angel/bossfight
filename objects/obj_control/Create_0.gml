@@ -1,6 +1,6 @@
 player_health = 100;
 
-boss_health = 10;
+boss_health = 2;
 
 boss_health2 = 100;
 

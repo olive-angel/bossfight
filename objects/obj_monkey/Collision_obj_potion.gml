@@ -1,0 +1,1 @@
+obj_control.player_health += 5;

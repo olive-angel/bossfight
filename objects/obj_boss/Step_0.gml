@@ -1,6 +1,11 @@
 // @desc core enemy logic 
 
 //Horizontal collision
+if(obj_control.boss_health <= 0){
+		sprite_index = spr_realboss;
+		speed = 7;
+}
+
 if (place_meeting(x + speed, y, obj_wall)) {
 	while (!place_meeting(x + sign(speed), y, obj_wall)) {
 		x += sign(speed);
@@ -18,6 +23,3 @@ if (place_meeting(x + 100, y - 10, obj_monkey) or place_meeting(x + 100, y - 10,
 	alarm[1] = room_speed * 0.1;
 }
 
-if(obj_control.boss_health <= 0){
-		sprite_index = spr_realboss;
-}

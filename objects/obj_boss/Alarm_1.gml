@@ -8,11 +8,16 @@ if(obj_control.boss_health > 0)
 {
 	obj_control.boss_health -= 2;
 }
+else
+{
+	obj_control.boss_health2 -=2;
+}
 
 if(obj_control.boss_health == 0){
 	alarm[4] = game_get_speed(gamespeed_fps);
 	sprite_index = spr_realboss;
-	y = obj_boss.y + 55;
-	obj_control.boss_health = -1;
+
+	obj_control.boss_health1 = -1;
 }
 
+    

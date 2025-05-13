@@ -1,5 +1,6 @@
 // @desc core enemy logic 
 
+
 //Horizontal collision
 	
 

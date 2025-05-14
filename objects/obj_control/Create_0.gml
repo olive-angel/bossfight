@@ -1,8 +1,8 @@
 player_health = 100;
 
-boss_health = 0;
+boss_health = 200;
 
-boss_health2 = 2;
+boss_health2 = 100;
 
 player_id = inst_189743FA;
 
